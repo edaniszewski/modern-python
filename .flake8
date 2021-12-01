@@ -1,0 +1,10 @@
+[flake8]
+# W503: Whitespace before ':' (conflicts with black formatting)
+ignore = W503
+select = BLK,E,F,I,W
+max-line-length = 100
+application-import-names = modern_python,tests
+exclude = bin/,examples/,.github/,build/,./venv/,docs/
+per-file-ignores =
+    # F401: imported but not used (imports in package __init__)
+    */__init__.py: F401
