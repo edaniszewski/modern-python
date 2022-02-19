@@ -9,7 +9,7 @@ packages = [{ include = "modern_python", from = "src"}]
 python = ">=3.6.2,<4.0"
 
 [tool.poetry.dev-dependencies]
-black = "^21.11b1"
+black = "^22.1"
 pytest = "^6.2.5"
 pytest-cov = "^3.0.0"
 pytest-asyncio = "^0.16.0"
