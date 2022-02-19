@@ -20,7 +20,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GH_PAT }}
-          base: master
+          base: main
           commit-message: "deps: update pre-commit dependency versions"
           branch: update/pre-commit-deps
           title: Auto-update for pre-commit dependencies
