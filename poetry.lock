@@ -130,16 +130,16 @@ pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
 name = "flake8-black"
-version = "0.2.4"
+version = "0.3.1"
 description = "flake8 plugin to call black as a code style validator"
 category = "dev"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
-black = "*"
+black = ">=22.1.0"
 flake8 = ">=3.0.0"
-toml = "*"
+tomli = "*"
 
 [[package]]
 name = "flake8-isort"
@@ -528,7 +528,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6.2,<4.0"
-content-hash = "9946c18e0584981a97bbf7f68b3c32f8c00511d1766c7c337590fed7f05348f4"
+content-hash = "7632af65babdfbd4987a3bec6a7638db4391fbd5e7aea36c11c536ebe4e5ed71"
 
 [metadata.files]
 atomicwrites = [
@@ -642,8 +642,8 @@ flake8 = [
     {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
 ]
 flake8-black = [
-    {file = "flake8-black-0.2.4.tar.gz", hash = "sha256:a7871bfd1cbff431a1fc91ba60ae154510c80f575e6b9a2bbb13dfb4650afd22"},
-    {file = "flake8_black-0.2.4-py3-none-any.whl", hash = "sha256:0a70dfd97c8439827f365dc6dbc6c8c9cc087f0833625c6cc6848ff7876256be"},
+    {file = "flake8-black-0.3.1.tar.gz", hash = "sha256:d0e9af6c2790fbbd3e3ffe579e2d185a5eb5419c233040d155957c4cacf2074d"},
+    {file = "flake8_black-0.3.1-py3-none-any.whl", hash = "sha256:7824329dcb93ff167d22846cf61b6f0ce60546650fc3db33776a33094839efda"},
 ]
 flake8-isort = [
     {file = "flake8-isort-4.1.1.tar.gz", hash = "sha256:d814304ab70e6e58859bc5c3e221e2e6e71c958e7005239202fee19c24f82717"},
